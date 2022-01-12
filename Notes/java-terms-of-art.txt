@@ -1,0 +1,100 @@
+
+Intro:
+
+1) Getting Started
+
+3- Anatomy of a Java Program
+Create a text file in your JavaFundementals project called “java-terms-of-art.txt” within your “notes” folder
+Store the following terms in your text file
+Define the terms: method, class, function, field, variable
+method
+
+method is a function, defined within an object that  is part of a class
+
+
+class
+
+ A class is a container for related function
+
+
+function
+
+a function is a block of code that perform a task
+
+
+Access Modifier
+A special keyword that determine if other classes or nethods can access this program or method
+
+PascalNamingConvention
+
+The first letter of every word should be uppercase
+
+camelNamingConvention
+
+The first letter of every word should be uppercase except the first word
+
+Fields
+It's the terms we use to describejava the property of a class
+
+4- Your First Java Program
+Complete this code in the project you first created(JavaFundementals), commit the completed code to GitHub when done
+
+5- How Java Code Gets Executed
+Know the difference between interpreted and compiled languages
+Define the terms and explain the difference between interpreted and compiled in your terms of art text document. Commit when complete
+
+
+
+
+2) Data Types
+	Priority List:
+	1- Introduction
+2- Variables
+
+A variable is used to store data temporarily in computer's memory
+
+ Declaration  a variable
+int age =30
+int is a type of our variable. we have different types of variable in Java.
+age : we give a name or a label to our variable it's also call an identifier
+= : assignment operator
+30 Initialisation of our variable : initial value assign to this variable
+
+Naming a variable
+camelCaseNotation : Capitalize the first letter of every word  except the first word
+
+
+3- Primitive Types
+We use Primitive for storing simple values (numbers,characters,boolean)
+8 Primitive Types : byte ,short ,int ,long ,float ,double ,Char ,boolean
+
+4- Reference Types
+We use  Non Primitives Types /Reference Types for storing complex objects (dates, mail message)
+
+An object is an instance of a class
+
+5- Primitive vs Reference Types
+ Reference Types are copied by their references and Primitive Typees are copied by their values
+
+6- Strings
+ Strings are  reference types in Java
+ String are concatenating or join with another with the + operator
+
+ Parameters Vs Arguments
+
+ Parameters are the the role that define our methods
+ Arguments are the actual value that we passed to this method
+
+7- Escape Sequences
+8- Arrays
+9- Multi-dimensional Arrays
+10- Constants
+11- Arithmetic Expressions
+12- Order of Operations
+13- Casting
+14- The Math Class
+15- Formatting Numbers
+16- Reading Input
+17- Project- Mortgage Calculator
+18- Solution
+
