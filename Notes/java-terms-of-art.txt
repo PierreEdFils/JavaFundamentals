@@ -86,13 +86,17 @@ An object is an instance of a class
  Arguments are the actual value that we passed to this method
 
 7- Escape Sequences
+
 8- Arrays
 9- Multi-dimensional Arrays
+ deep to string is using to printing mulMulti-dimensional Arrays
 10- Constants
 11- Arithmetic Expressions
 12- Order of Operations
 13- Casting
+Parse to change from one to another
 14- The Math Class
+Math.floor/.ceil/.max
 15- Formatting Numbers
 16- Reading Input
 17- Project- Mortgage Calculator
