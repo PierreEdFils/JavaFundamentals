@@ -1,5 +1,7 @@
 package com.careerdevs.intro;
 
+import java.util.Scanner;
+
 public class ControlFlow {
     public static void main(String[] args) {
         // Comparison Operators
@@ -33,19 +35,57 @@ public class ControlFlow {
 //        System.out.println(className);
 
         //       Switch Statement
-        String role = "admin";
+//        String role = "admin";
+//
+//        switch (role){
+//            case " admin ":
+//                System.out.println("You're an admin");
+//                break;
+//            case " moderator ":
+//                System.out.println("You're a moderator");
+//                break;
+//            default :
+//                    System.out.println("You are a guest");
+//        }
 
-        switch (role){
-            case " admin ":
-                System.out.println("You're an admin");
-                break;
-            case " moderator ":
-                System.out.println("You're a moderator");
-                break;
-            default :
-                    System.out.println("You are a guest");
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("Number :");
+//        int number = scanner.nextInt();
+//
+//        if (number % 5 == 0 && number % 3 == 0)
+//            System.out.println("FizzBuzz");
+//        else if (number % 5 == 0)
+//            System.out.println("Fizz");
+//        else if (number % 3 == 0)
+//            System.out.println("Buzz");
+//        else
+//            System.out.println(number);
+
+
+//        For loops
+//        for (int i = 5; i > 0; i--)
+//            System.out.println("Hello World" +  i );
+
+
+//        While loop
+
+        Scanner scanner = new Scanner(System.in);
+        String input  ="";
+        while (!input.equals("quit")){
+            System.out.println("Input");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+
         }
 
+
+        do {
+            System.out.println("Input");
+            input = scanner.next().toLowerCase();
+            System.out.println(input);
+
+        } while (!input.equals("quit"));
 
 
     }
