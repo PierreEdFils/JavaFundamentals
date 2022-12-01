@@ -72,21 +72,31 @@ public class ControlFlow {
 
         Scanner scanner = new Scanner(System.in);
         String input  ="";
-        while (!input.equals("quit")){
-            System.out.println("Input");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
+//        while (true){
+//            System.out.println("Input : ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("pass"))
+//                continue;
+//            if (input.equals("quit"))
+//                break;
+//            System.out.println(input);
+//
+//        }
 
-        }
+//        do {
+//            System.out.println("Input");
+//            input = scanner.next().toLowerCase();
+//            System.out.println(input);
+//
+//        } while (!input.equals("quit"));
 
+            String []  fruits ={"Apple","Mango", "Orange"};
 
-        do {
-            System.out.println("Input");
-            input = scanner.next().toLowerCase();
-            System.out.println(input);
+        for (int i = 0; i < fruits.length; i++)
+            System.out.println(fruits[i]);
 
-        } while (!input.equals("quit"));
-
+        for (String fruit : fruits)
+            System.out.println(fruit);
 
     }
 }
